@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView =findViewById(R.id.leveltext);
         Button btnOK = findViewById(R.id.btnOK);
         Button btnClean = findViewById(R.id.btnClean);
         etWord = findViewById(R.id.etWord);
